@@ -1,0 +1,21 @@
+---English text below!---
+
+Sắp xếp so sánh là một loại thuật toán sắp xếp so sánh các phần tử trong mảng đầu vào để xác định thứ tự tương đối của chúng và sắp xếp lại chúng cho phù hợp. 
+Nói cách khác, nó sắp xếp đầu vào bằng cách so sánh các cặp phần tử và hoán đổi chúng nếu chúng theo thứ tự sai.
+
+Hầu hết các thuật toán sắp xếp nổi tiếng, chẳng hạn như Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort và Heap Sort, đều thuộc danh mục Comparison Sort. 
+Tất cả đều sử dụng một số hình thức so sánh để xác định thứ tự của các phần tử trong mảng đầu vào.
+
+Độ phức tạp về thời gian của các thuật toán sắp xếp dựa trên so sánh thường là O(nlogn) tốt nhất, có nghĩa là số lượng phép toán cần thiết để sắp xếp một mảng có kích thước n tăng theo logarit với kích thước của mảng. 
+Điều này là do, trong trường hợp xấu nhất, mỗi phần tử phải được so sánh với mọi phần tử khác trong mảng, lấy n (n-1) / 2 so sánh.
+
+
+
+Comparison Sort is a type of sorting algorithm that compares elements in the input array to determine their relative order, and rearranges them accordingly. 
+In other words, it sorts the input by comparing pairs of elements and swapping them if they are in the wrong order.
+
+Most of the well-known sorting algorithms, such as Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort, and Heap Sort, fall under the category of Comparison Sort. 
+They all use some form of comparison to determine the order of the elements in the input array.
+
+The time complexity of comparison-based sorting algorithms is usually O(nlogn) at best, which means that the number of operations required to sort an array of size n grows logarithmically with the size of the array. 
+This is because, in the worst case, each element must be compared to every other element in the array, which takes n(n-1)/2 comparisons.

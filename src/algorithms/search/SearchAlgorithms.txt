@@ -1,0 +1,20 @@
+---English text below!---
+
+1. Tìm kiếm tuyến tính: Nó kiểm tra tuần tự từng phần tử trong danh sách cho đến khi tìm thấy kết quả phù hợp hoặc đạt đến cuối danh sách.
+2. Tìm kiếm nhị phân: Nó yêu cầu danh sách được sắp xếp và liên tục chia khoảng thời gian tìm kiếm làm đôi cho đến khi phần tử đích được tìm thấy hoặc xác định là không có mặt.
+3. Tìm kiếm nội suy: Đây là một cải tiến so với tìm kiếm nhị phân cho các mảng được sắp xếp phân phối thống nhất. Nó sử dụng giá trị của phần tử đích và ranh giới của mảng để ước tính vị trí có khả năng của phần tử đích.
+4. Jump Search: Nó hoạt động bằng cách nhảy về phía trước bởi một số bước cố định trong một mảng được sắp xếp cho đến khi phần tử đích được tìm thấy hoặc vượt qua, sau đó thực hiện tìm kiếm tuyến tính trong khối trước đó.
+5. Tìm kiếm theo cấp số nhân: Nó hoạt động bằng cách tìm một phạm vi có thể chứa phần tử đích bằng cách sử dụng gia số mũ và sau đó thực hiện tìm kiếm nhị phân trong phạm vi đó.
+6. Tìm kiếm bậc ba: Đây là một thuật toán chia và chinh phục liên tục chia khoảng thời gian tìm kiếm thành ba phần và thu hẹp phạm vi tìm kiếm dựa trên so sánh với phần tử mục tiêu.
+7. Tìm kiếm Fibonacci: Đây là một cải tiến so với tìm kiếm nhị phân chia mảng thành các số Fibonacci để xác định khoảng thời gian tìm kiếm.
+8. Băm: Nó sử dụng hàm băm để ánh xạ các khóa tìm kiếm đến các chỉ số mảng, cho phép truy cập trực tiếp vào phần tử mong muốn trong thời gian không đổi.
+
+
+1. Linear Search: It sequentially checks each element in the list until a match is found or the end of the list is reached.
+2. Binary Search: It requires the list to be sorted and repeatedly divides the search interval in half until the target element is found or determined to be not present.
+3. Interpolation Search: It is an improvement over binary search for uniformly distributed sorted arrays. It uses the value of the target element and the boundaries of the array to estimate the likely position of the target element.
+4. Jump Search: It works by jumping ahead by a fixed number of steps in a sorted array until the target element is found or surpassed, then performs a linear search within the previous block.
+5. Exponential Search: It works by finding a range that may contain the target element using exponential increments and then performs a binary search within that range.
+6. Ternary Search: It is a divide-and-conquer algorithm that repeatedly divides the search interval into three parts and narrows down the search range based on the comparison with the target element.
+7. Fibonacci Search: It is an improvement over binary search that divides the array into Fibonacci numbers to determine the search interval.
+8. Hashing: It uses a hash function to map the search keys to array indices, allowing for direct access to the desired element in constant time.
